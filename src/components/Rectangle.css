@@ -1,0 +1,103 @@
+.rectangle252 {
+  width: 333px;
+  height: 425px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.n-a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 13;
+}
+.download-5-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 16;
+}
+.form-holder,
+.image21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 14;
+}
+.image21 {
+  z-index: 15;
+}
+.form-holder-parent {
+  width: 83px;
+  height: 25px;
+  position: relative;
+}
+.time-sensitive-frame-wrapper,
+.time-sensitive-frame2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.time-sensitive-frame2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-sm) var(--padding-56xl) 0 var(--padding-57xl);
+  position: relative;
+  gap: 6px 0;
+}
+.time-sensitive-frame-wrapper {
+  height: 148px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.exclusive-deals-text,
+.sign-up-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.exclusive-deals-text {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  align-items: center;
+  padding: var(--padding-4xl) var(--padding-2xl) var(--padding-6xs)
+    var(--padding-lg);
+  gap: 28px 0;
+  z-index: 10;
+}
+.sign-up-frame {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-smi);
+  min-width: 250px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-slategray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .time-sensitive-frame2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
